@@ -1,0 +1,101 @@
+
+        body{
+            background-color: rgba(2, 31, 54, 0.63);
+            color: white;
+            font: normal 20pt Arial;
+            text-align: center;
+            background-image: url("background.jpg");
+            
+        }
+        h1{
+            color: rgb(156, 226, 211);/*Comentario CSS*/
+        }
+        h2{
+            color: rgb(159, 180, 184);/*Comentario CSS*/
+        }
+        strong{
+            font-weight: bolder;
+        }
+        table,tr,th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        div#res{
+            margin-top: 30px;
+            height: auto;
+        }
+        div#form{
+            border: 2px solid;
+            margin-top: 15px;
+            padding: 5px;
+            text-align: center;
+            height: auto;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background: rgba(47, 0, 75, 0.8);
+        }
+        img#img{
+            border: 2px solid;
+            margin-top: 15px;
+            padding: 5px;
+            text-align: center;
+            height: 400px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            border-radius: 10px; 
+        }
+        input{
+            font:normal 15pt 'Arial';
+            width: 90px;
+            height: 27px;  
+            background: black;
+            color: red; 
+            text-align: center;         
+            border-radius: 10px;
+            
+        }
+        section#corpo{
+            margin-top: 30px;
+            padding: 20px;
+            border: 15px solid;
+            text-align: center;
+            height: auto;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 255, 0.8);
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        header#cabecalho{
+            padding: 20px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            border: 10px solid;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(26, 73, 104, 0.8);
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        footer#rodape{
+            padding: 20px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            border: 10px solid;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(24, 34, 41, 0.8);            
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        
+   

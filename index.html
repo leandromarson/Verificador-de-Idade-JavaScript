@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header id = cabecalho>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section id = corpo>  
+        <div id=form> 
+            <form name="form_idade">
+                <p><label for = "nasc">Ano de nascimento: </label><input type="number" id= "nasc" name = "nasc" required></p>
+                <p>Sexo: <input type="radio" id="masc" name="sexo" value = "masculino" checked><label for = "masc">Masculino</label>
+                    <input type="radio" id="fem" name="sexo" value = "feminino"><label for = "fem">Feminino</label></p>
+                <p><input type ="button" id="btn" value="Verificar" onclick="verificarIdade()"> </p>    
+
+            </form>
+        
+            <div id="res"></div>
+        </div>
+                
+        
+    </section>
+    <footer id= rodape>
+        <p>Leandro Marson Ribeiro</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
